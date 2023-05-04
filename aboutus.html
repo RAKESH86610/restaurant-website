@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about_us</title>
+   
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            
+        }
+        header{
+            background-color: black;
+            color: white;
+            text-align: center;
+            height: 30px;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+        }
+        .theme{
+        background-image: url("aboutustheme.avif");
+        width: 100%;
+        height: 400px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 300px;
+       
+       
+        
+        
+    }
+    .theme,a,.aboutustext{
+        font-size:30px;
+        text-decoration: none;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+   
+    
+   
+    }
+    a{
+       
+        position: relative;
+        top: -150px;
+        left: -150px;
+    }
+    .aboutustext{
+        position: relative;
+        top: -170px;
+        left:-100px;
+        font-size: larger;
+        font-family: cursive;
+    }
+    .shopnowbtn{
+        width:180px;
+            height: 45px;
+            border-radius: 15px;
+            padding: 10px;
+            background-color: orange;
+            border-style: none;
+            margin-left: 90px;
+            margin-top: 20px;
+            color: white;
+            
+    }
+    .shopnowbtn:hover{
+        background-color:black;
+        transform: translate(40px);
+        transition-duration: 3s;
+    }
+    .reviewimg{
+        background-image: url('reviewimg.png');
+        width: 100%;
+        height: 250px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: 2px solid gray;
+        border-radius:20px;
+        margin-top: 40px;
+        margin-right: 10px;
+    }
+    .bodycentered{
+        display: flex;
+    }
+    .whyitsfamous p1{
+        margin-top:50px;
+        margin-left: 50px;
+        font-size:30px;
+        font-weight: bold;
+        font-family: fantasy;
+    }
+    .whyitsfamous p{
+        margin-top:50px;
+        margin-left: 50px;
+    }
+    .bodycenteredlft{
+        border:2px
+    }
+    .footer{
+            background-color:black;
+            width: 100%;
+            height: 300px;
+            position: relative;
+            margin-top: 10px;
+
+        }
+
+          .icons a img{
+            width:60px;
+            height: 56px;
+
+          } 
+          .footerflex{
+            display: flex;
+            gap: 40%;
+          } 
+          #followustxt{
+            font-size:30px;
+            font-style: oblique;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            position: absolute;
+            top: 70px;
+            left: 200px;
+
+          }
+          .contactdetails{
+            position: absolute;
+            right: 170px;
+            top: 120px;
+            font-size: 30px;
+          }
+          .socialmedia{
+        display: flex;
+        
+        
+      }
+      .socialmedia a{
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        text-decoration: none;
+        color:white;
+        overflow: hidden;
+        box-shadow: 0 0 20px 10px rgba(0,0,0,0.05);
+        margin: 0 10px;
+        border-radius: 50%;
+        position: relative;
+        outline-color: white;
+        
+        
+
+      }
+      .socialmedia a .fa-brands{
+        font-size:20px;
+        line-height: 50px;
+        position: relative;
+        z-index: 10;
+        transition: color 0.5s;
+      }
+      .socialmedia a::after{
+        content:'';
+        width: 100%;
+        height: 100%;
+        top: -90px;
+        left: 0;
+        background:linear-gradient(-45deg,#ed1c94,#ffec17);
+        position: absolute;
+        transition: 0.5s;
+
+      }
+      .socialmedia a:hover::after{
+        top: 0;
+        
+
+      }
+      .socialmedia a:hover{
+        color: #fff;
+      }
+      .socialmedia{
+        position: absolute;
+        bottom:-40px;
+        left: 280px;
+      }
+      
+    </style>
+</head>
+<body>
+    <header>
+        <p>FREE SHIPPING WITH IN 5KM WHEN ORDERING THROUGH APP!</p>
+    </header>
+    <div class="theme">
+        <p class="aboutustext">ABOUT US</p>
+     <a href="home.html"></i></i> HOME /</a>
+   <a href="contactus.html"><i class="fa-regular fa-user"></i> CONTACT</a>
+
+    </div>
+    <div class="bodycentered">
+    <div class="bodycenteredlft">
+    <div style="background-image: url('zigzag.png');background-repeat: no-repeat;width: 290px;height: 50px;padding: 3px;text-align: center;align-items: center;justify-content: center;display: flex;font-size:20px;font-weight: bold;font-family: cursive;margin: 50px;">
+        <span>SUPER FAST DELIVERY</span>
+        
+        <p>SUPER SPICY CHICKEN BIRYANI</p>
+
+    </div>
+    <p style="margin-left:60px;font-size: 30px;font-weight: bold;font-family: cursive;">Just tap on shop now..</p>
+<button class="shopnowbtn">SHOP NOW</button>
+</div>
+<div class="reviewimg">
+    
+</div>
+</div>
+<footer class="footer" style="color: white;">
+    <p id="followustxt" >FOLLOW US ON</p>
+    <div class="socialmedia">
+        <a href=""><i class="fa-brands fa-facebook"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+         
+         <a href=""><i class="fa-brands fa-twitter"></i></a>
+         <a href=""><i class="fa-brands fa-youtube"></i></a>
+         <a href=""><i class="fa-brands fa-linkedin"></i></a>
+     </div> 
+<div class="contactdetails">
+    <p>hydbiryani@gmail.com</p>
+    <p>+919998887772</p>
+</div>
+</div>
+<p style="text-align:center;position:absolute;bottom: 30px;left: 44%;">Copyright &copy; 2023. Designed by Rakesh</p>
+</footer>
+
+<script src="https://kit.fontawesome.com/cbebe4a82b.js" crossorigin="anonymous"></script>
+</body>
+</html>

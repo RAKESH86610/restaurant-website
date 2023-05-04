@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact_us</title>
+    
+        <script src="https://kit.fontawesome.com/cbebe4a82b.js" crossorigin="anonymous"></script>
+    <style>
+        
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .banner {
+            background-image: url("https://wpbingosite.com/wordpress/foodpa/wp-content/uploads/2023/03/21-scaled.jpeg");
+            width: 100%;
+            height: 500px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+           display:flex;
+           color: white;
+           font-size: 1.3rem;
+           position: relative;
+           padding: 300px;
+           
+           
+        }
+        .banimgcont{
+            
+            display: flex;
+            flex-direction:bottom;
+           position: absolute;
+           bottom: 200px;
+           
+        }
+        .homebtnincontactpg:link{
+            text-decoration: none;
+            font-size: 25px;
+            
+        }
+        form>input{
+            width:200px;
+            height: 40px;
+            display: inline-flex;
+            border-radius: 14px;
+            padding: 10px;
+        }
+        .contactform{
+            margin: 20px;
+        }
+        .contactsubmitbtn{
+            width: 200px;
+            height: 40px;
+            border-radius: 20px;
+            background-color: orange;
+            color: white;
+            border-style: none;
+            padding: 10px;
+            font-size:17px
+            
+
+        }
+        .contactsubmitbtn:hover
+        {
+            cursor: pointer;
+            
+            outline:2px solid rgb(0, 0, 0);
+            outline-offset: 10px;
+            border-radius:50px
+        }
+        .footer{
+            background-color:black;
+            width: 100%;
+            height: 300px;
+            position: relative;
+
+        }
+
+          
+          .footerflex{
+            display: flex;
+            gap: 40%;
+          } 
+          
+          
+          #followustxt{
+            font-size:30px;
+            font-style: oblique;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            position: absolute;
+            top: 70px;
+            left: 200px;
+
+          }
+          .contactdetails{
+            position: absolute;
+            right: 170px;
+            top: 120px;
+            font-size: 30px;
+          }
+          #youtubevedio{
+            position: absolute;
+            right:120px;
+           top: 690px;
+           width: 400px;
+           height:240px;
+           border-radius: 20px;
+          }
+          .socialmedia{
+        display: flex;
+        
+        
+      }
+      .socialmedia a{
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        text-decoration: none;
+        color:white;
+        overflow: hidden;
+        box-shadow: 0 0 20px 10px rgba(0,0,0,0.05);
+        margin: 0 10px;
+        border-radius: 50%;
+        position: relative;
+        outline-color: white;
+        outline-offset: 10px;
+        
+
+      }
+      .socialmedia a .fa-brands{
+        font-size:20px;
+        line-height: 50px;
+        position: relative;
+        z-index: 10;
+        transition: color 0.5s;
+      }
+      .socialmedia a::after{
+        content:'';
+        width: 100%;
+        height: 100%;
+        top: -90px;
+        left: 0;
+        background:linear-gradient(-45deg,#ed1c94,#ffec17);
+        position: absolute;
+        transition: 0.5s;
+
+      }
+      .socialmedia a:hover::after{
+        top: 0;
+        
+
+      }
+      .socialmedia a:hover{
+        color: #fff;
+      }
+      .socialmedia{
+        position: absolute;
+        bottom:100px;
+        left: 140px;
+      }
+      
+
+        
+    </style>
+</head>
+
+<body>
+    <div class="banner">
+        <span style="font-size:40px;font-family:Marko One;">CONTACT</span>
+        <div class="banimgcont">
+        <a href="home.html" class="homebtnincontactpg"><span style="color:blue;">HOME</span></a>
+        
+        &nbsp&nbsp&nbsp&nbsp<p style="font-size: 25px;">>&nbsp&nbsp&nbsp&nbspCONTACT</p>
+
+    </div>
+</div>
+    <form action="" class="contactform">
+        <p style="font-size:30px;font-family:'Courier New', Courier, ">Get In Touch</p>
+        <br><input type="text" placeholder="Name">
+        <input type="email" placeholder="Email">
+        <input type="number" placeholder="Phone Number">
+        <br><br><br>
+        <textarea name="" id="" cols="100" rows="10" placeholder="Enter comment or Message" style="border-radius: 15px;padding:10px"></textarea>
+    <br><br><button class="contactsubmitbtn">Send Message</button>
+    </form>
+    <iframe id="youtubevedio" width="560" height="315" src="https://www.youtube.com/embed/au1lLe778Zw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <footer class="footer" style="color: white;">
+        <p id="followustxt" >FOLLOW US ON</p>
+        <div class="socialmedia">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+             
+             <a href=""><i class="fa-brands fa-twitter"></i></a>
+             <a href=""><i class="fa-brands fa-youtube"></i></a>
+             <a href=""><i class="fa-brands fa-linkedin"></i></a>
+             
+
+         </div> 
+    
+    <div class="contactdetails">
+        <p>hydbiryani@gmail.com</p>
+        <p>+919998887772</p>
+    </div>
+</div>
+<p style="text-align:center;position:absolute;bottom: 30px;left: 44%;">Copyright &copy; 2023. Designed by Rakesh</p>
+    </footer>
+        
+    
+     
+       
+   
+</body>
+</html>
